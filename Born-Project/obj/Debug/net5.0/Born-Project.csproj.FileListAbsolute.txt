@@ -143,3 +143,4 @@ C:\Users\mhamadi\source\Born-Project on GitHub\Born-Project\obj\Debug\net5.0\Bor
 C:\Users\mhamadi\source\Born-Project on GitHub\Born-Project\obj\Debug\net5.0\ref\Born-Project.dll
 C:\Users\mhamadi\source\Born-Project on GitHub\Born-Project\obj\Debug\net5.0\Born-Project.pdb
 C:\Users\mhamadi\source\Born-Project on GitHub\Born-Project\obj\Debug\net5.0\Born-Project.genruntimeconfig.cache
+C:\Users\mhamadi\source\Born-Project on GitHub\Born-Project\obj\Debug\net5.0\Razor\Views\Project\Index.cshtml.g.cs

@@ -1080,7 +1080,7 @@
                                         </span>
                                         <div class="menu-sub menu-sub-accordion menu-active-bg">
                                             <div class="menu-item">
-                                                <a class="menu-link" href="../../demo8/dist/pages/projects/list.html">
+                                                <a class="menu-link" asp-controller="Project" asp-action="Index">
                                                     <span class="menu-bullet">
                                                         <span class="bullet bullet-dot"></span>
                                                     </span>
@@ -1979,7 +1979,11 @@
                 </div>
                 <!--end::Header-->
                 <!--begin::Content-->
-                
+                <div class="container">
+                    <main role="main" class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
                 <!--end::Content-->
                 <!--begin::Footer-->
                 <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
@@ -5211,11 +5215,7 @@
 
 
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+
 
     <footer class="border-top footer text-muted">
         <div class="container">
