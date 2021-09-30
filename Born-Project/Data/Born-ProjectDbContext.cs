@@ -15,6 +15,7 @@ namespace Born_Project.Data
         }
 
         public DbSet<Project> Project { get; set; }
+        public DbSet<User> User { get; set; }
 
     }
 }
