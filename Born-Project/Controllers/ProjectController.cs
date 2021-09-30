@@ -18,7 +18,7 @@ namespace Born_Project.Controllers
         public async Task<IActionResult> Index(int? pageIndex, string filterStatus)
         {
             var projectList = await ProjectListing<Project>.CreateAsync(_db.Project
-                .Where(x => (string.IsNullOrEmpty(filterStatus) || x.Status.Equals(filterStatus) || x.Status.Equals(filterStatus)))
+                .Where(x => (string.IsNullOrEmpty(filterStatus) || filterStatus.Equals("All") || x.Status.Equals(filterStatus)))
                 .Select(x => new Project 
                 {
                     Id = x.Id,

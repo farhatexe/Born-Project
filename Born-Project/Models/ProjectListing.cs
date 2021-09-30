@@ -14,7 +14,7 @@ namespace Born_Project.Models
         public ProjectListing(List<T> items, int count, int pageIndex, int pageSize, string filterStatus)
         {
             PageIndex = pageIndex;
-            FilterStatus = FilterStatus;
+            FilterStatus = filterStatus;
             TotalPages = (int)Math.Ceiling(count / (double)pageSize);
 
             this.AddRange(items);
